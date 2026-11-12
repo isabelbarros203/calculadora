@@ -62,7 +62,7 @@ h1 {
 }
 
 .button.dark:active {
-  background-color: rgba(128, 128, 128, 0.664);
+  color: rgba(128, 128, 128, 0.664);
 }
 .button.blue {
   color: white;
@@ -70,5 +70,5 @@ h1 {
   border-radius: 30%;
 }
 .button.blue:active {
-  background-color: rgba(128, 128, 128, 0.651);
+  color: rgba(128, 128, 128, 0.651);
 }
