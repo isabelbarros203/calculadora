@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CALCULADORA</h1>
+      <div class="display" id="display"></div>
+      <div class="buttons">
+        <button class="button blue" onclick="clearDisplay('C')">C</button>
+        <button class="button blue" onclick="appendOperator('%')">%</button>
+        <button class="button blue" onclick="appendOperator('/')">/</button>
+        <button class="button blue" onclick="appendOperator('*')">*</button>
+        <button class="button dark" onclick="appendNumber('1')">1</button>
+        <button class="button dark" onclick="appendNumber('2')">2</button>
+        <button class="button dark" onclick="appendNumber('3')">3</button>
+        <button class="button blue" onclick="appendOperator('+')">+</button>
+        <button class="button dark" onclick="appendNumber('4')">4</button>
+        <button class="button dark" onclick="appendNumber('5')">5</button>
+        <button class="button dark" onclick="appendNumber('6')">6</button>
+        <button class="button blue" onclick="appendOperator('-')">-</button>
+        <button class="button dark" onclick="appendNumber('7')">7</button>
+        <button class="button dark" onclick="appendNumber('8')">8</button>
+        <button class="button dark" onclick="appendNumber('9')">9</button>
+        <button class="button blue" onclick="appendOperator('.')">.</button>
+        <button class="button dark" onclick="appendNumber('0')">0</button>
+        <button class="button blue" onclick="calculate('=')">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
